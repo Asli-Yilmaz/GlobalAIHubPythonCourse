@@ -38,5 +38,5 @@ for k,v in orderedInfo.items():
     print(k,v)
     
 for k in orderedInfo:
-    print("\n %s has the highest grades. Congrats!" %k)
+    print("\n %s has the highest grade. Congrats!" %k)
     break
