@@ -1,8 +1,10 @@
+#Generating a 3x3 matrix with random prime numbers. 
 import random as rnd
 matrix=[]
 for i in range(3):
-    number=0
     row=[]
+    number=0
+    #'number' veriable count the numbers in a row.To create a 3x3 matrix, number must be 3.    
     while number!=3:
         n=rnd.randint(0,100)
         if(n<2):continue
@@ -14,7 +16,9 @@ for i in range(3):
             row.append(n)
             number+=1
     matrix.append(row)
+    #adding row list into the matrix list
 for i in range(3):
     for j in range(3):
         print(matrix[i][j],end=" ")
     print()
+#display the numbers. 
