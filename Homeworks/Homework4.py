@@ -1,3 +1,4 @@
+#Hangman game with OOP 
 import random as rnd
 word=[]
 class Hangman():
@@ -8,8 +9,10 @@ class Hangman():
     def RndWord(self):
         words=["peace","faith","funny","success","health","luck","friendship"]
         i=rnd.randint(0,6)
+        #selects a random word from the 'words' list.
         RWord=[]
         RWord[:0]=words[i]
+        #turns the string word to a list
         return RWord
    
     def First_Print(self, w):
@@ -17,6 +20,7 @@ class Hangman():
         for i in range(len(w)):
             word.append("__")
             print(word[i],end=" ")
+            #adds '__'char into the empty word list as many as the word's letters, and print word list to the screen.
         print()
 
     def Control(self,w):
@@ -26,6 +30,7 @@ class Hangman():
             for j in range(len(w)):            
                  if letter==w[j]:
                       word[j]=letter
+                    #if the word contains the guessed letter, it insert the letter into the 'word' list
                  else:continue
             self.Print(w)
             selected=input("Do you want to guess the word?(y/n)")
@@ -38,6 +43,7 @@ class Hangman():
     def Guess(self,w):
         str=""
         str=str.join(w)
+        #convert the list to string again
         guess=input("Enter your guess: ")
         guess=guess.strip()
         if guess==str:
