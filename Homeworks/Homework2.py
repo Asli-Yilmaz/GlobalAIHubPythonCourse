@@ -1,3 +1,4 @@
+#A program that calculates the grades with inputs from 5 students and congratulates the student who gets the highest grade.
 names=list()
 grades=list()
 info={}
@@ -38,5 +39,5 @@ for k,v in orderedInfo.items():
     print(k,v)
     
 for k in orderedInfo:
-    print("\t %s has the highest grades. Congrats!" %k)
+    print("\t %s has the highest grade. Congrats!" %k)
     break
