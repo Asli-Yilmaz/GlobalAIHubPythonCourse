@@ -1,3 +1,5 @@
+#A program that press the prime numbers between 0-500 on the screen with the prime_first function,
+#and press the prime numbers between 500-1000 on the screen with the prime_second function.
 def prime_first(i):
 
     if(i<2):return
