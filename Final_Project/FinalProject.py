@@ -1,3 +1,4 @@
+#Recipe Application with OOP
 class Yemek():
     def __init__(self, name,baharat,yag,su,tuz,pisme_suresi):
         self.name=name
