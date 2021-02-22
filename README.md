@@ -2,11 +2,10 @@
 ![](img/logo.png)
 
 **Course Date:** DD.MM.YYYY  
-**Name:** Aslı
-**Surname:** Yılmaz  
+**Name:** Aslı 
+**Surname:** Ylmaz  
 **Email:** asliyilmaz613@gmail.com
 
-**Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
 
 ## Project Name
 Description of your project.
@@ -20,5 +19,5 @@ Some python libraries
 ---
 
 ### Certification
-![](img/certificate_ex.png)
+![](img/sertifika.png)
 
